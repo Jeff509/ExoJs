@@ -1,55 +1,69 @@
 'use strict';
 
-/* My Digital School Forever */
+// Erceice 1
+// My Digital School Forever
 
-/*
-* My Digital
-* School Forever
-* every day
-*/
+// Exercice 2
+/* 
+ * My Digital School forever every day
+ */
 
+// Exercice 3
 var string = '42';
 var number = 42;
-var float = 42.0;
+var float = 42.00;
 var boolean = true;
-var array = [42, 42, 42];
-var date = new Date(4142,12.24, 42);
-var  objet = { "42" : 42};
-var und = undefined:
-var und2 = null;
-console.log(string,number,float,array,object,und,und2,empty);
+var array = ['42'];
+var date = new Date(4241, 12, 1, 24, 42, 42);
+var object = {'42': 42};
+var und = undefined;
+var empty = null;
 
+console.log(string, number, float, boolean, array, date, object, und, empty);
 
-var my42count = 'quarante-deux'.length;
-console.log(my42count);
+// Exercice 4
+var my42count = 'quarante-deux';
 
+console.log(my42count.length);
 
-var myArray42 = (['quarante-deux'|| + car.length]);
+// Exercice 5
+var value;
+var check = value || 42;
 
-console.log(myArray42);
-
-// exercice 5
-
-var value = true;
-var check = value 42;
 console.log(check);
 
-//exercice 6
+// Exercice 6
+var myArray42 = ['q', 'u', 'a', 'r', 'a', 'n', 't', 'e', '-', 'd', 'e', 'u', 'x']
 
-var myArray42 = ['q', 'u', 'r', 'a','n'];
-console.log(myArray42)
+console.log(myArray42[0]);
 
-// exo 7
-var myArray42len = myArray42.length;
-console.log(myArray42len)
+// Exercice 7
+var myArray42Len = myArray42.length;
 
-// exo 8
-console.log((myArray42.join |'') + la grande réponse sur la vie, l'\univers et le reste !');
- // exo 9
+console.log(myArray42Len);
+// Exercice 8
+console.log(myArray42.join('') + ' La grande réponse sur la vie, l’univers et le reste !');
 
-var rand = Math.floor((Math.random() * (42) +1));
-console.log(rand=== 42);
+// Exercice 9
+var rand = Math.floor(Math.random() * (42)) + 1
 
-// exo 10
+console.log(rand === 42);
 
+// Exercice 10
+console.log('Exercice 10 --> ', typeof 'sdfsdfsdfsd', typeof number, typeof float, typeof boolean, array, date, object);
 
+// Exercice 11
+var compute42 = 7 * 6;
+console.log('Exercice 11 --> ', compute42.toString());
+
+// Exercice 12
+var number42 = '42424242 sdfsdf sd 42';
+var test = number42.replace(/42/gi, 'quarante-deux ');
+console.log(test);
+
+// Exercice 13
+var a = 24;
+var b = 42;
+var c = a;
+
+a = b;
