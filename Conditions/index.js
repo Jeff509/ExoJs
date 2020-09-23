@@ -57,3 +57,32 @@ switch (Date) {
     console.log("nous sommes" + Date)
     break;
 }
+
+//exo5
+
+public boolean validerDossierClient(final String value) {
+
+    if (value == null) {
+        throw new IllegalArgumentException("bla bla");
+    }
+
+    boolean ok = validerA(value);
+
+    if (!ok) {
+        return false;
+    }
+
+    ok = validerB(value);
+
+    if (!ok) {
+        return false;
+    }
+
+    ok = validerC(value);
+
+    if (!ok) {
+        return false;
+    }
+
+    return true;
+}
