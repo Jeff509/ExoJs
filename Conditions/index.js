@@ -20,3 +20,40 @@ if ((rand >= 0) && (rand <= 10)) {
 } else {
     alert(rand + " : Warm !")
 }
+
+// exo3
+
+'use strict';
+var date=new Date()
+document.write("date.getDay() = "+date.getDay()+"<BR>")
+var jour=new Array("Dimanche", "Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi");
+
+switch (Date) {
+    case lundi:
+    console.log("nous sommes" + Date)
+    break;
+
+    case mardi:
+    console.log("nous sommes" + Date)
+    break;
+
+    case mercredi:
+    console.log("nous sommes" + Date)
+    break;
+
+    case jeudi:
+    console.log("nous sommes" + Date)
+    break;
+
+    case vendredi:
+    console.log("nous sommes" + Date)
+    break;
+
+    case samedi:
+    console.log("nous sommes" + Date)
+    break;
+
+    case dimanche:
+    console.log("nous sommes" + Date)
+    break;
+}
