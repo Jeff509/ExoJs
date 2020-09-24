@@ -11,3 +11,11 @@ function myPutStr(string){
   console.log(myPutStr(63))
   console.log(myPutStr('hello'))
 }
+
+/* computeSurfaceM2
+*@param{a,b}
+*/return a * b + "M2"
+// Exo 2
+function computeSurfaceM2(a, b){
+  return a * b + " M2"
+}
